@@ -21,5 +21,5 @@ for (var i = 0; i < listaEmail.length; i++) {
 if ( accesso === true) {
   document.getElementById('autorizzo').innerHTML = ("Accesso autorizzato, la sua email è presente nel sistema.");
 } else {
-  document.getElementById('autorizzo').innerHTML = ("Accesso autorizzato, la sua email non è presente nel sistema.");
+  document.getElementById('autorizzo').innerHTML = ("Accesso negato, la sua email non è presente nel sistema.");
 }
